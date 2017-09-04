@@ -1,0 +1,6 @@
+c:\users\woboy\documents\visual studio 2015\Projects\TutEvents\TutEvents\bin\Debug\TutEvents.exe.config
+c:\users\woboy\documents\visual studio 2015\Projects\TutEvents\TutEvents\bin\Debug\TutEvents.exe
+c:\users\woboy\documents\visual studio 2015\Projects\TutEvents\TutEvents\bin\Debug\TutEvents.pdb
+c:\users\woboy\documents\visual studio 2015\Projects\TutEvents\TutEvents\obj\Debug\TutEvents.csprojResolveAssemblyReference.cache
+c:\users\woboy\documents\visual studio 2015\Projects\TutEvents\TutEvents\obj\Debug\TutEvents.exe
+c:\users\woboy\documents\visual studio 2015\Projects\TutEvents\TutEvents\obj\Debug\TutEvents.pdb
