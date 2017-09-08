@@ -1,0 +1,14 @@
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\bin\Debug\MVP_WPF.exe.config
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\bin\Debug\MVP_WPF.exe
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\bin\Debug\MVP_WPF.pdb
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\obj\Debug\MVP_WPF.csprojResolveAssemblyReference.cache
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\obj\Debug\App.g.cs
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\obj\Debug\MVP_WPF_MarkupCompile.cache
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\obj\Debug\MVP_WPF_MarkupCompile.lref
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\obj\Debug\MainWindow.baml
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\obj\Debug\MVP_WPF.g.resources
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\obj\Debug\MVP_WPF.Properties.Resources.resources
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\obj\Debug\MVP_WPF.csproj.GenerateResource.Cache
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\obj\Debug\MVP_WPF.exe
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\MVP_WPF\obj\Debug\MVP_WPF.pdb

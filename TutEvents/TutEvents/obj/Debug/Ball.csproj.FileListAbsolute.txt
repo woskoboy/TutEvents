@@ -1,3 +1,6 @@
 C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\TutEvents\bin\Debug\TutEvents.exe.config
 C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\TutEvents\obj\Debug\TutEvents.exe
 C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\TutEvents\obj\Debug\TutEvents.pdb
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\TutEvents\bin\Debug\TutEvents.exe
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\TutEvents\bin\Debug\TutEvents.pdb
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\TutEvents\obj\Debug\Ball.csprojResolveAssemblyReference.cache
