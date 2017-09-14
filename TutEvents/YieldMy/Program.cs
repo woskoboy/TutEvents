@@ -11,7 +11,7 @@ namespace YieldMy{
             /*IEnumerable collection = (new UserCollectionY()).Power();
             foreach (var el in collection)
                 Console.WriteLine(el);*/
-            UserCollectionReflector collection = new UserCollectionReflector();
+            UserCollectionZReflector collection = new UserCollectionZReflector();
             foreach (Element el in collection)
                  Console.WriteLine("{0} {1} {2}", el.Field, el.Field1, el.Field2);
             Console.ReadLine();
@@ -53,7 +53,8 @@ namespace YieldMy{
         int position = -1;
         Element[] elementsArray = null;
         public UserCollectionZ(){
-            elementsArray = new Element[] { new Element("A", 1, 10), new Element("B", 2, 20), new Element("C", 3, 30)};
+            elementsArray = new Element[] { new Element("A", 1, 10),
+                new Element("B", 2, 20), new Element("C", 3, 30)};
         }
         public IEnumerator GetEnumerator() {
             while (true) {
@@ -68,51 +69,34 @@ namespace YieldMy{
         }
     }
 
-    class UserCollectionReflector : IEnumerable {
+    class UserCollectionZReflector : IEnumerable {
         private Element[] elementsArray = null;
         private int position = -1;
-        public UserCollectionReflector() {
+        public UserCollectionZReflector() {
             this.elementsArray = new Element[] { new Element("A", 1, 10),
                 new Element("B", 2, 20), new Element("C", 3, 30)};
         }
         public IEnumerator GetEnumerator() {
-            ClassGetEnumerator instance = new ClassGetEnumerator(0);
+            ClassGetEnumerator instance = new ClassGetEnumerator();
             instance.collection = this;
             return instance;
         }
-
         // Nested Types
-        private sealed class ClassGetEnumerator : IEnumerator<object>, IDisposable, IEnumerator {
-            private int state;
-            private object current;
-            public UserCollectionReflector collection;
-
-            public ClassGetEnumerator(int state) {
-                this.state = state;
-            }
+        private sealed class ClassGetEnumerator : IEnumerator {
+            public UserCollectionZReflector collection;
             public bool MoveNext() {
-                switch (this.state) {
-                    case 0:
-                        this.state = -1; break;
-                    case 1:
-                        this.state = -1; break;
-                    default:
-                        return false;
-                }
                 if (this.collection.position < (this.collection.elementsArray.Length - 1)) {
                     this.collection.position++;
-                    this.current = this.collection.elementsArray[this.collection.position];
-                    this.state = 1;
                     return true;
                 }
                 this.collection.position = -1;
                 return false;
             }
             void IEnumerator.Reset() { throw new NotSupportedException(); }
-            void IDisposable.Dispose() { }
             // Properties
-            object IEnumerator<object>.Current { get { return this.current; } }
-            object IEnumerator.Current { get { return this.current; } }
+            object IEnumerator.Current {
+                get { return this.collection.elementsArray[this.collection.position]; }
+            }
         }
     }
 

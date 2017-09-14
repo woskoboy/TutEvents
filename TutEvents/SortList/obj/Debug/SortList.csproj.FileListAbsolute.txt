@@ -1,0 +1,6 @@
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\SortList\bin\Debug\SortList.exe.config
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\SortList\bin\Debug\SortList.exe
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\SortList\bin\Debug\SortList.pdb
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\SortList\obj\Debug\SortList.csprojResolveAssemblyReference.cache
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\SortList\obj\Debug\SortList.exe
+C:\Users\woboy\Documents\Visual Studio 2015\Projects\TutEvents\SortList\obj\Debug\SortList.pdb
