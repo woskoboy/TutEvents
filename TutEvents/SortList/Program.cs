@@ -13,17 +13,19 @@ namespace SortList {
                 new Duck(14, KindOfDuck.Decoy), new Duck(11, KindOfDuck.Muscovy),
                 new Duck(14, KindOfDuck.Mallard), new Duck(13, KindOfDuck.Decoy)
             };
+
             List<Bird> birds = new List<Bird> {
                 new Bird() { Name = "Floyd" }, new Bird() { Name = "Pinguin" } };
 
             IEnumerable<Bird> upcastDuck = ducks;
             birds.AddRange(upcastDuck);
+
             foreach (Bird bird in birds)
                 Console.WriteLine(bird);
 
             Console.WriteLine(new string('-',30));
 
-            ducks.Sort();
+            //ducks.Sort();
             DuckByKind ducksByKind = new DuckByKind();
             ducks.Sort(ducksByKind);
             foreach (Duck duck in ducks)
@@ -51,7 +53,6 @@ namespace SortList {
             return Kind + " " + Size;
         }
     }
-
     /* IComparer<T> - интерфейс, позволяющий создать отдельный класс для
     сортировки составляющих объекта List<T>. 
     Реализуя интерфейс IComparer<T>, вы объясняете коллекции, каким способом нужно
